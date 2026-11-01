@@ -13,25 +13,6 @@ using namespace std;
 // i = 1, key = 15, {1, 15, 6, 8, 2, 5, 9}; 
 // i = 2, key = 6,  {1, 15, 15, 8, 2, 5, 9};  & {1, 6, 15, 8, 2, 5, 9};  
 
-// template<typename F> 
-// void insertion_sort(vector<F>& v)
-// {
-
-//     for (int i =1; i < v.size(); i++)
-//     {
-
-//         F key = v[i];
-//         int j = i - 1;
-
-//         while (j >= 0 && key < v[j])
-//         {
-//             v[j+1] = v[j];
-//             --j;
-//         }
-//         v[j+1] = key; 
-//     }
-
-// }
 
 template <typename T>
 void insertion_sort(vector<T>& vec)
