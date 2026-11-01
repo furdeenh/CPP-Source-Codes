@@ -51,10 +51,6 @@ void insertion_sort(vector<T>& vec)
 }
 
 
-
-
-
-
 // Template function to print elements of a vector.
 template<typename T>
 void print_vector(const vector<T>& arr) {
